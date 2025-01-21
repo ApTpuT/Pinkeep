@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Pinkeep",
+    "version": "2.0",
+    "description": "Opens new tab when navigating to different domain in pinned tabs",
+    "permissions": [
+        "tabs",
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "icons": {
+        "48": "icons/icon-48.png",
+        "96": "icons/icon-96.png"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "ApTpuT@test.com"
+        }
+    }
+}
